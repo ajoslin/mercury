@@ -22,7 +22,7 @@ function WeakmapEvent() {
     }
 
     function listen(obj, fn) {
-        getEvent(obj).listen(fn);
+        return getEvent(obj).listen(fn);
     }
 
     function getEvent(obj) {
